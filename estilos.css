@@ -29,22 +29,6 @@ body{
   font-size: 25px;
 }
 
-.navbar a{
-  font-size: 14px;
-  margin-right: 10px;
-}
-
-.fa-info-circle{
-  color: white;
-  margin-left: 300px;
-  font-size: 20px;
-  padding-right: 10px;
-}
-
-.fa-info-circle:hover{
-  color: rgb(185, 183, 183);
-}
-
 .datos{
   text-decoration: none;
   color: white;
@@ -145,7 +129,7 @@ body{
 }
 
 .fa-check-circle{
-  font-size: 25px;
+  font-size: 25px !important;
   color: white;
 }
 
