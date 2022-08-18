@@ -109,19 +109,22 @@ body{
 
 @media(max-width:900px){
   .cuerpo_formulario{
-    display: grid !important;
-    text-align: center;
+    flex-direction: column;
   }
   .cuerpo_formulario .input,.numero{
-    width: 94% !important;
-    margin: 6px 0px !important;
-  }
-  .cuerpo_formulario .select{
-    width: 20% !important;
+    width: 85% !important;
     margin: 6px auto !important;
   }
+  .cuerpo_formulario .numero{
+    width: 40% !important;
+    margin: 6px auto !important;
+  }
+  .cuerpo_formulario .select{
+    width: 15% !important;
+    margin: 6px auto;
+  }
   .cuerpo_formulario .boton{
-    margin: 6px 0px !important;
+    margin: 6px 0px;
   }
 }
 
